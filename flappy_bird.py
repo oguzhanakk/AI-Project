@@ -246,6 +246,9 @@ def main(genomes, config):
                 birds.pop(x)
                 nets.pop(x)
                 ge.pop(x)
+                
+        if score > 50:
+            break
             
         base.move()
         draw_window(win, birds, pipes, base, score)
@@ -263,6 +266,7 @@ def run(config_path):
     p.add_reporter(stats)
     
     winner = p.run(main,50) #You can save the winner neuron.
+    print(winner)
 
 if __name__ == "__main__":
     local_dir = os.path.dirname(__file__)
