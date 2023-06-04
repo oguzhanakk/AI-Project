@@ -26,4 +26,4 @@ The NEAT configuration parameters are stored in the config-feedforward.txt file,
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
 # License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details.
